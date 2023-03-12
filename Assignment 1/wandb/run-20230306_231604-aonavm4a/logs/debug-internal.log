@@ -1,0 +1,1345 @@
+2023-03-06 23:16:04,447 INFO    StreamThr :9540 [internal.py:wandb_internal():87] W&B internal server running at pid: 9540, started at: 2023-03-06 23:16:04.446753
+2023-03-06 23:16:04,449 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status
+2023-03-06 23:16:04,514 INFO    WriterThread:9540 [datastore.py:open_for_write():85] open: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\run-aonavm4a.wandb
+2023-03-06 23:16:04,515 DEBUG   SenderThread:9540 [sender.py:send():336] send: header
+2023-03-06 23:16:04,594 DEBUG   SenderThread:9540 [sender.py:send():336] send: run
+2023-03-06 23:16:05,274 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: check_version
+2023-03-06 23:16:05,275 INFO    SenderThread:9540 [dir_watcher.py:__init__():216] watching files in: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files
+2023-03-06 23:16:05,275 INFO    SenderThread:9540 [sender.py:_start_run_threads():1067] run started: aonavm4a with start time 1678124764.457724
+2023-03-06 23:16:05,275 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:16:05,276 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:16:05,276 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: check_version
+2023-03-06 23:16:05,347 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: run_start
+2023-03-06 23:16:05,387 DEBUG   HandlerThread:9540 [system_info.py:__init__():31] System info init
+2023-03-06 23:16:05,387 DEBUG   HandlerThread:9540 [system_info.py:__init__():46] System info init done
+2023-03-06 23:16:05,387 INFO    HandlerThread:9540 [system_monitor.py:start():151] Starting system monitor
+2023-03-06 23:16:05,387 INFO    SystemMonitor:9540 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-06 23:16:05,387 INFO    HandlerThread:9540 [system_monitor.py:probe():172] Collecting system info
+2023-03-06 23:16:05,393 INFO    SystemMonitor:9540 [interfaces.py:start():168] Started cpu
+2023-03-06 23:16:05,393 INFO    SystemMonitor:9540 [interfaces.py:start():168] Started disk
+2023-03-06 23:16:05,394 INFO    SystemMonitor:9540 [interfaces.py:start():168] Started gpu
+2023-03-06 23:16:05,394 INFO    SystemMonitor:9540 [interfaces.py:start():168] Started memory
+2023-03-06 23:16:05,411 INFO    SystemMonitor:9540 [interfaces.py:start():168] Started network
+2023-03-06 23:16:05,419 DEBUG   HandlerThread:9540 [system_info.py:probe():195] Probing system
+2023-03-06 23:16:05,421 DEBUG   HandlerThread:9540 [system_info.py:_probe_git():180] Probing git
+2023-03-06 23:16:05,424 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:05,571 DEBUG   HandlerThread:9540 [system_info.py:_probe_git():188] Probing git done
+2023-03-06 23:16:05,571 DEBUG   HandlerThread:9540 [system_info.py:probe():241] Probing system done
+2023-03-06 23:16:05,571 DEBUG   HandlerThread:9540 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.13', 'heartbeatAt': '2023-03-06T17:46:05.419759', 'startedAt': '2023-03-06T17:46:04.416868', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'CS6910/Assignment 1/CS6910 Assignment-1.ipynb', 'root': 'C:/Users/anant/CS6910', 'git': {'remote': 'https://github.com/ananthu2014/CS6910.git', 'commit': '5f5c50e2285a1353056d5a4073970254484ba586'}, 'email': 'ananthu2014@gmail.com', 'host': 'ANANTHAKRISHNAN', 'username': 'anant', 'executable': 'C:\\Users\\anant\\anaconda3\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400.0, 'min': 0.0, 'max': 2400.0}, 'cpu_freq_per_core': [{'current': 2400.0, 'min': 0.0, 'max': 2400.0}], 'disk': {'total': 117.99511337280273, 'used': 73.64175796508789}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.883045196533203}}
+2023-03-06 23:16:05,572 INFO    HandlerThread:9540 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-06 23:16:05,572 INFO    HandlerThread:9540 [system_monitor.py:probe():185] Publishing system info
+2023-03-06 23:16:05,572 DEBUG   HandlerThread:9540 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-06 23:16:05,574 DEBUG   HandlerThread:9540 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-06 23:16:05,574 DEBUG   HandlerThread:9540 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-06 23:16:06,284 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:16:06,284 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\requirements.txt
+2023-03-06 23:16:06,285 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\conda-environment.yaml
+2023-03-06 23:16:07,444 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:09,466 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:11,490 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:13,511 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:15,537 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:17,559 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:19,586 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:21,610 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:23,634 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:24,331 DEBUG   HandlerThread:9540 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-06 23:16:24,332 INFO    HandlerThread:9540 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-06 23:16:24,351 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:16:24,352 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:16:24,352 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:16:24,352 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:16:24,352 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:16:24,352 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:16:24,353 DEBUG   SenderThread:9540 [sender.py:send():336] send: files
+2023-03-06 23:16:24,353 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-06 23:16:24,382 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-06 23:16:24,383 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: stop_status
+2023-03-06 23:16:24,491 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\conda-environment.yaml
+2023-03-06 23:16:24,491 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-metadata.json
+2023-03-06 23:16:24,692 DEBUG   SenderThread:9540 [sender.py:send():336] send: telemetry
+2023-03-06 23:16:25,502 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:16:25,666 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:25,707 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:16:25,826 INFO    wandb-upload_0:9540 [upload_job.py:push():138] Uploaded file C:\Users\anant\AppData\Local\Temp\tmpp_t4pnftwandb\kltr2nzy-wandb-metadata.json
+2023-03-06 23:16:27,524 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:16:27,704 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:29,740 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:30,765 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:16:31,769 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:33,797 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:35,843 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:16:35,924 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:36,617 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\config.yaml
+2023-03-06 23:16:37,938 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:39,381 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:16:39,958 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:41,267 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:16:41,978 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:44,001 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:44,429 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:16:46,025 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:46,330 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:16:48,053 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:49,496 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:16:50,078 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:51,394 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:16:52,104 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:54,126 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:54,556 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:16:56,149 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:56,451 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:16:58,178 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:16:59,612 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:17:00,216 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:01,505 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:17:02,238 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:04,263 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:04,674 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:17:05,417 DEBUG   SystemMonitor:9540 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-06 23:17:05,418 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:17:06,361 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:07,438 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:17:08,384 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:09,733 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:17:10,409 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:12,430 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:12,496 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:17:14,457 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:14,789 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:17:16,480 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:17,141 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:17:17,144 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:17:17,145 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:17:17,149 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:17:18,112 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:17:18,159 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:17:18,503 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:19,121 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:17:19,841 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:17:20,520 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:22,541 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:23,198 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:17:24,566 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:24,903 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:17:26,591 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:28,252 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:17:28,614 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:29,963 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:17:30,640 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:32,662 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:33,314 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:17:34,688 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:35,024 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:17:35,421 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:17:36,786 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:38,457 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:17:38,803 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:40,087 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:17:40,826 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:42,843 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:43,512 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:17:44,857 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:45,128 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:17:46,878 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:48,561 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:17:48,906 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:50,180 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:17:50,922 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:52,944 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:53,614 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:17:54,971 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:55,244 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:17:56,998 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:17:58,677 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:17:59,022 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:00,305 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:18:01,046 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:03,075 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:03,730 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:18:05,102 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:05,352 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:18:05,433 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:18:07,202 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:09,218 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:09,472 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:18:10,407 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:18:11,246 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:11,791 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:18:11,792 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:18:11,792 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:18:11,793 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:18:12,716 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:18:13,267 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:14,821 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:18:15,296 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:15,457 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:18:17,320 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:19,347 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:19,888 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:18:20,519 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:18:21,368 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:23,389 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:24,942 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:18:25,416 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:25,573 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:18:27,436 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:29,461 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:30,002 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:18:30,633 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:18:31,487 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:33,518 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:35,054 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:18:35,437 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:18:35,551 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:35,688 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:18:37,655 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:39,678 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:40,489 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:18:40,752 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:18:41,703 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:43,718 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:45,541 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:18:45,743 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:45,810 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:18:47,768 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:49,794 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:50,602 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:18:50,872 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:18:51,811 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:53,836 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:55,659 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:18:55,861 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:55,928 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:18:57,886 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:18:59,914 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:00,721 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:19:00,991 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:19:01,935 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:03,967 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:05,442 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:19:05,992 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:06,043 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:19:06,451 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:19:08,090 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:08,855 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:19:08,857 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:19:08,857 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:19:08,859 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:19:09,380 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:19:10,118 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:10,391 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:19:11,105 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:19:11,895 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:19:12,146 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:14,170 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:16,152 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:19:16,195 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:16,954 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:19:18,217 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:20,244 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:21,211 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:19:22,018 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:19:22,270 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:24,295 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:26,278 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:19:26,322 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:27,083 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:19:28,345 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:30,375 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:31,330 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:19:32,150 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:19:32,400 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:34,423 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:35,448 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:19:36,382 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:19:36,453 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:37,472 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:19:38,557 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:40,577 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:41,436 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:19:42,540 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:19:42,600 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:44,627 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:46,497 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:19:46,652 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:47,606 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:19:48,680 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:50,709 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:51,563 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:19:52,672 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:19:52,734 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:54,752 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:56,619 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:19:56,776 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:19:57,725 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:19:58,794 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:00,821 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:01,676 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:20:02,787 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:20:02,847 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:03,386 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:20:03,387 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:20:03,387 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:20:03,391 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:20:04,036 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:20:04,875 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:05,457 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:20:06,737 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:20:06,903 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:08,491 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:20:09,016 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:11,035 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:11,797 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:20:13,060 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:13,553 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:20:15,087 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:16,862 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:20:17,113 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:18,617 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:20:19,136 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:21,164 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:21,913 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:20:23,187 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:23,664 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:20:25,212 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:26,970 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:20:27,236 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:28,724 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:20:29,260 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:31,274 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:32,029 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:20:33,295 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:33,768 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:20:35,313 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:35,472 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:20:37,079 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:20:37,329 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:39,432 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:39,507 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:20:41,453 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:42,139 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:20:43,466 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:44,558 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:20:45,489 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:47,204 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:20:47,517 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:49,544 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:49,627 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:20:51,567 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:52,254 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:20:53,591 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:54,677 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:20:55,621 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:57,310 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:20:57,638 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:59,673 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:20:59,721 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:21:01,713 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:02,361 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:21:03,744 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:04,770 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:21:05,380 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:21:05,382 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:21:05,383 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:21:05,384 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:21:05,482 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:21:05,764 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:21:05,779 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:06,773 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:21:07,417 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:21:07,806 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:09,937 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:10,517 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:21:11,967 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:12,455 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:21:14,054 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:15,564 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:21:16,080 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:17,507 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:21:18,097 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:20,104 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:20,588 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:21:22,126 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:22,535 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:21:24,133 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:25,632 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:21:26,139 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:27,564 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:21:28,162 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:30,178 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:30,665 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:21:32,187 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:32,595 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:21:34,211 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:35,483 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:21:36,236 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:36,486 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:21:37,616 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:21:38,275 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:40,394 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:41,508 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:21:42,403 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:42,638 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:21:44,423 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:46,434 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:46,529 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:21:47,658 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:21:48,449 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:50,452 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:51,550 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:21:52,461 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:52,680 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:21:54,484 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:56,509 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:21:56,572 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:21:57,701 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:21:58,532 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:00,556 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:01,591 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:22:02,578 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:02,719 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:22:04,602 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:05,498 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:22:06,628 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:07,506 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:22:07,741 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:22:08,651 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:09,865 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:22:09,865 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:22:09,865 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:22:09,865 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:22:10,707 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:22:10,738 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:12,746 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:12,762 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:22:12,888 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:22:14,755 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:16,777 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:17,783 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:22:17,909 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:22:18,787 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:20,794 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:22,803 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:22:22,819 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:22,929 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:22:24,843 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:26,866 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:27,823 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:22:27,948 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:22:28,898 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:30,915 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:32,845 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:22:32,939 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:32,970 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:22:34,957 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:35,506 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:22:36,981 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:37,885 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:22:38,528 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:22:39,000 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:41,079 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:42,914 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:22:43,087 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:43,558 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:22:45,094 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:47,102 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:47,934 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:22:48,578 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:22:49,111 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:51,135 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:52,954 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:22:53,158 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:53,597 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:22:55,182 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:57,205 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:22:57,974 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:22:58,617 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:22:59,229 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:01,254 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:02,994 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:23:03,276 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:03,637 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:23:05,302 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:05,521 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:23:07,311 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:23:07,311 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:23:07,311 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:23:07,311 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:23:07,327 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:08,013 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:23:08,327 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:23:09,331 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:23:09,331 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:23:09,348 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:11,433 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:13,033 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:23:13,441 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:14,399 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:23:15,448 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:17,456 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:18,084 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:23:19,449 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:23:19,465 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:21,488 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:23,104 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:23:23,512 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:24,516 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:23:25,536 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:27,559 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:28,123 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:23:29,567 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:23:29,582 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:31,607 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:33,145 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:23:33,631 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:34,634 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:23:35,528 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:23:35,657 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:37,677 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:38,163 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:23:39,701 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:40,548 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:23:41,787 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:43,183 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:23:43,795 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:45,568 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:23:45,803 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:47,824 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:48,204 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:23:49,836 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:50,588 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:23:51,844 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:53,223 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:23:53,866 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:55,608 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:23:55,891 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:57,915 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:23:58,244 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:23:59,938 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:00,629 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:24:01,963 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:02,731 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:24:02,731 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:24:02,731 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:24:02,731 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:24:02,967 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:24:03,265 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:24:03,987 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:05,541 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:24:06,012 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:06,545 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:24:08,036 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:08,287 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:24:10,061 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:11,567 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:24:12,148 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:13,310 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:24:14,165 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:16,168 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:16,590 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:24:18,174 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:18,331 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:24:20,198 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:21,611 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:24:22,223 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:23,353 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:24:24,247 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:26,255 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:26,631 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:24:28,278 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:28,372 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:24:30,303 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:31,651 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:24:32,326 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:33,397 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:24:34,342 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:35,550 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:24:36,365 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:37,554 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:24:38,385 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:38,417 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:24:40,404 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:42,490 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:42,584 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:24:43,447 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:24:44,498 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:46,506 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:47,603 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:24:48,482 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:24:48,525 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:50,538 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:52,546 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:52,625 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:24:53,487 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:24:54,570 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:56,594 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:57,646 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:24:58,508 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:24:58,618 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:24:59,606 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:24:59,606 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:24:59,606 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:24:59,606 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:24:59,622 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:25:00,645 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:01,649 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:25:02,653 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:25:02,669 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:03,532 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:25:04,693 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:05,557 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:25:06,718 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:08,554 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:25:08,569 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:25:08,741 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:10,765 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:12,864 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:13,574 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:25:13,590 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:25:14,877 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:16,885 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:18,596 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:25:18,611 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:25:18,894 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:20,904 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:22,912 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:23,618 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:25:23,634 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:25:24,936 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:26,960 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:28,639 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:25:28,655 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:25:28,984 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:31,009 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:33,033 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:33,660 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:25:33,675 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:25:35,057 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:35,558 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:25:37,080 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:38,681 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:25:39,108 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:39,575 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:25:41,129 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:43,215 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:43,701 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:25:44,596 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:25:45,224 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:47,232 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:48,722 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:25:49,243 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:49,616 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:25:51,248 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:53,272 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:53,742 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:25:53,868 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:25:53,868 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:25:53,868 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:25:53,883 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:25:54,276 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:25:54,888 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:25:55,296 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:57,319 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:58,746 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:25:59,359 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:25:59,908 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:26:01,367 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:03,390 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:03,782 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:26:04,928 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:26:05,414 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:05,571 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:26:07,437 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:08,802 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:26:09,461 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:10,591 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:26:11,501 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:13,588 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:13,823 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:26:15,596 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:15,612 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:26:17,604 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:18,843 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:26:19,628 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:20,632 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:26:21,635 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:23,643 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:23,863 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:26:25,651 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:26:25,667 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:27,691 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:28,882 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:26:29,714 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:30,717 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:26:31,737 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:33,773 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:33,910 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:26:35,576 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:26:35,793 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:36,577 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:26:37,811 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:38,940 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:26:39,829 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:41,618 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:26:41,854 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:43,940 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:43,971 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:26:45,948 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:46,638 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:26:47,957 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:48,991 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:26:49,604 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:26:49,604 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:26:49,604 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:26:49,604 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:26:49,930 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:26:49,977 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:51,956 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:26:51,985 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:52,629 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:26:53,992 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:54,008 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:26:56,017 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:57,648 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:26:58,040 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:26:59,029 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:27:00,064 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:02,088 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:02,684 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:27:04,049 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:27:04,111 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:05,591 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:27:06,136 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:08,160 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:08,599 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:27:09,070 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:27:10,183 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:12,207 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:13,619 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:27:14,090 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:27:14,294 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:16,302 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:18,311 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:18,639 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:27:19,110 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:27:20,333 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:22,342 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:23,660 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:27:24,130 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:27:24,350 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:26,375 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:28,399 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:28,681 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:27:29,152 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:27:30,423 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:32,447 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:33,702 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:27:34,173 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:27:34,471 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:35,600 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:27:36,496 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:38,519 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:39,194 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:27:39,617 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:27:40,543 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:42,568 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:44,215 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:27:44,247 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:27:44,247 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:27:44,247 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:27:44,247 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:27:44,619 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:27:44,655 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:45,266 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:27:46,662 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:48,670 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:49,236 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:27:50,286 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:27:50,694 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:52,702 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:54,256 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:27:54,727 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:55,307 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:27:56,739 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:58,759 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:27:59,277 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:28:00,327 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:28:00,782 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:02,806 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:04,296 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:28:04,830 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:05,348 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:28:05,614 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:28:06,856 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:08,877 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:09,316 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:28:10,633 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:28:10,900 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:12,925 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:14,336 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:28:15,011 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:15,654 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:28:17,019 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:19,043 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:19,357 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:28:20,675 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:28:21,051 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:23,059 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:24,377 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:28:25,068 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:25,695 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:28:27,092 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:29,116 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:29,398 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:28:30,715 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:28:31,139 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:33,162 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:34,460 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:28:35,192 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:35,616 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:28:36,620 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:28:37,231 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:39,256 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:39,491 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:28:41,272 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:41,475 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:28:41,491 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:28:41,491 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:28:41,491 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:28:42,360 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:28:42,501 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:28:43,302 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:44,369 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:28:44,526 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:28:45,404 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:47,416 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:47,521 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:28:49,429 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:49,545 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:28:51,443 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:52,542 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:28:53,452 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:54,567 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:28:55,460 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:57,469 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:57,564 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:28:59,493 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:28:59,587 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:29:01,517 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:02,584 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:29:03,540 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:04,607 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:29:05,566 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:05,628 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:29:07,589 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:07,636 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:29:09,613 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:09,630 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:29:11,636 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:12,655 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:29:13,658 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:14,647 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:29:15,746 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:17,691 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:29:17,754 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:19,669 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:29:19,763 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:21,782 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:22,744 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:29:23,796 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:24,690 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:29:25,804 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:27,766 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:29:27,829 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:29,711 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:29:29,852 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:31,876 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:32,786 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:29:33,899 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:34,731 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:29:35,641 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:29:35,923 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:36,786 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:29:36,786 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:29:36,786 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:29:36,786 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:29:36,928 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:29:37,806 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:29:37,948 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:39,752 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:29:39,972 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:41,995 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:42,827 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:29:44,018 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:44,771 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:29:46,122 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:47,847 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:29:48,129 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:49,792 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:29:50,137 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:52,146 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:52,867 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:29:54,154 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:54,814 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:29:56,179 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:57,888 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:29:58,202 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:29:59,833 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:30:00,225 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:02,248 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:02,907 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:30:04,273 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:04,855 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:30:05,655 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:30:06,298 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:08,322 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:08,667 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:30:09,875 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:30:10,346 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:12,369 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:13,688 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:30:14,393 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:14,895 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:30:16,495 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:18,520 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:18,708 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:30:19,916 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:30:20,528 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:22,536 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:23,728 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:30:24,544 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:24,905 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:30:26,551 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:28,559 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:28,748 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:30:29,955 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:30:30,592 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:31,321 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:30:31,321 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:30:31,321 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:30:31,336 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:30:31,585 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:30:32,596 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:30:32,621 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:34,372 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:30:34,637 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:34,982 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:30:35,658 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:30:36,678 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:38,706 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:39,696 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:30:40,026 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:30:40,716 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:42,740 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:44,763 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:30:44,763 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:45,045 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:30:46,866 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:48,874 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:49,800 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:30:50,067 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:30:50,883 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:52,907 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:54,837 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:30:54,915 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:55,088 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:30:56,939 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:58,962 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:30:59,856 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:31:00,108 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:31:00,986 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:03,010 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:04,878 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:31:05,035 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:05,129 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:31:05,662 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:31:07,058 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:09,082 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:10,149 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:31:10,682 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:31:11,106 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:13,129 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:15,154 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:15,170 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:31:15,703 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:31:17,241 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:19,249 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:20,191 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:31:20,724 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:31:21,258 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:23,279 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:25,213 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:31:25,292 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:25,746 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:31:26,686 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:31:26,686 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:31:26,686 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:31:26,688 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:31:27,287 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:31:27,300 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:29,324 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:30,234 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:31:31,347 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:31,708 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:31:33,370 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:35,253 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:31:35,394 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:35,676 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:31:37,418 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:37,685 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:31:39,442 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:40,273 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:31:41,466 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:42,705 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:31:43,489 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:45,293 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:31:45,516 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:47,620 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:47,726 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:31:49,640 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:50,315 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:31:51,649 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:52,747 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:31:53,657 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:55,336 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:31:55,681 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:57,689 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:31:57,768 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:31:59,697 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:00,356 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:32:01,709 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:02,789 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:32:03,729 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:05,379 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:32:05,678 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:32:05,756 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:07,778 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:08,688 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:32:09,801 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:10,398 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:32:11,826 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:13,710 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:32:13,851 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:15,421 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:32:15,876 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:17,966 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:18,731 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:32:19,971 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:20,441 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:32:20,677 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:32:20,677 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:32:20,677 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:32:20,677 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:32:20,956 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:32:21,976 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:22,964 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:32:23,984 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:24,705 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:32:25,458 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:32:25,992 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:28,016 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:29,725 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:32:30,039 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:30,478 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:32:32,062 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:34,089 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:34,748 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:32:35,503 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:32:35,691 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:32:36,115 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:38,138 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:40,154 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:40,531 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:32:40,720 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:32:42,178 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:44,203 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:45,552 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:32:45,741 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:32:46,227 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:48,314 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:50,321 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:50,573 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:32:50,761 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:32:52,330 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:54,340 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:55,595 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:32:55,783 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:32:56,348 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:32:58,372 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:00,396 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:00,616 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:33:00,804 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:33:02,420 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:04,443 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:05,636 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:33:05,699 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:33:06,467 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:06,702 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:33:08,491 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:10,515 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:10,657 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:33:11,723 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:33:12,539 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:14,562 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:15,676 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:33:16,589 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:16,590 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:33:16,590 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:33:16,590 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:33:16,590 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:33:17,591 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:33:17,606 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:33:18,674 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:20,682 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:20,698 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:33:22,642 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:33:22,689 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:24,697 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:25,716 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:33:26,705 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:27,709 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:33:28,728 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:30,737 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:33:30,753 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:32,761 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:33:32,777 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:34,801 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:35,711 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:33:35,757 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:33:36,825 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:38,723 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:33:38,848 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:40,778 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:33:40,872 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:42,896 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:43,743 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:33:44,919 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:45,798 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:33:46,944 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:48,764 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:33:49,031 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:50,820 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:33:51,039 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:53,046 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:53,784 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:33:55,054 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:55,839 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:33:57,064 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:33:58,805 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:33:59,087 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:00,860 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:34:01,111 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:03,137 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:03,824 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:34:05,159 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:05,724 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:34:05,881 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:34:07,184 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:09,207 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:09,741 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:34:10,478 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:34:10,478 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:34:10,478 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:34:10,478 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:34:10,899 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:34:11,229 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:34:11,229 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:11,229 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:34:13,254 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:15,278 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:15,513 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:34:15,921 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:34:17,302 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:19,388 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:20,533 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:34:20,941 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:34:21,396 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:23,404 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:25,414 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:25,556 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:34:25,964 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:34:27,423 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:29,446 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:30,575 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:34:30,984 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:34:31,470 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:33,496 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:35,520 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:35,599 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:34:35,740 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:34:36,006 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:34:37,537 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:39,553 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:40,793 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:34:41,043 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:34:41,576 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:43,604 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:45,625 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:45,814 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:34:46,065 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:34:47,649 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:49,752 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:50,835 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:34:51,085 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:34:51,760 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:53,769 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:55,776 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:55,854 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:34:56,089 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:34:57,784 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:34:59,791 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:35:00,875 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:35:01,126 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:35:01,816 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:35:03,840 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:35:05,741 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:35:05,865 ERROR   gpu       :9540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-06 23:35:06,148 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:35:06,273 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-06 23:35:06,273 DEBUG   SenderThread:9540 [sender.py:send():336] send: history
+2023-03-06 23:35:06,273 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: summary_record
+2023-03-06 23:35:06,273 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:35:06,289 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:35:06,860 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:35:06,923 DEBUG   SenderThread:9540 [sender.py:send():336] send: telemetry
+2023-03-06 23:35:06,923 DEBUG   SenderThread:9540 [sender.py:send():336] send: run
+2023-03-06 23:35:07,283 INFO    SenderThread:9540 [sender.py:send_run():944] updated run: aonavm4a
+2023-03-06 23:35:07,283 DEBUG   SenderThread:9540 [sender.py:send():336] send: telemetry
+2023-03-06 23:35:07,283 DEBUG   SenderThread:9540 [sender.py:send():336] send: telemetry
+2023-03-06 23:35:07,283 DEBUG   SenderThread:9540 [sender.py:send():336] send: exit
+2023-03-06 23:35:07,283 INFO    SenderThread:9540 [sender.py:send_exit():559] handling exit code: 0
+2023-03-06 23:35:07,299 INFO    SenderThread:9540 [sender.py:send_exit():561] handling runtime: 1141
+2023-03-06 23:35:07,299 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:35:07,299 INFO    SenderThread:9540 [sender.py:send_exit():567] send defer
+2023-03-06 23:35:07,299 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:07,299 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-06 23:35:07,299 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:07,299 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-06 23:35:07,299 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 1
+2023-03-06 23:35:07,299 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:07,299 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-06 23:35:07,299 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:07,299 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-06 23:35:07,299 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 2
+2023-03-06 23:35:07,299 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:07,299 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-06 23:35:07,299 INFO    HandlerThread:9540 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-06 23:35:07,299 DEBUG   SystemMonitor:9540 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-06 23:35:07,299 DEBUG   SystemMonitor:9540 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-06 23:35:07,299 INFO    HandlerThread:9540 [interfaces.py:finish():175] Joined cpu
+2023-03-06 23:35:07,314 INFO    HandlerThread:9540 [interfaces.py:finish():175] Joined disk
+2023-03-06 23:35:07,346 INFO    HandlerThread:9540 [interfaces.py:finish():175] Joined gpu
+2023-03-06 23:35:07,346 INFO    HandlerThread:9540 [interfaces.py:finish():175] Joined memory
+2023-03-06 23:35:07,346 INFO    HandlerThread:9540 [interfaces.py:finish():175] Joined network
+2023-03-06 23:35:07,346 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:07,346 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-06 23:35:07,346 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 3
+2023-03-06 23:35:07,346 DEBUG   SenderThread:9540 [sender.py:send():336] send: stats
+2023-03-06 23:35:07,346 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:07,346 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-06 23:35:07,346 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:07,346 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-06 23:35:07,346 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 4
+2023-03-06 23:35:07,346 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:07,346 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-06 23:35:07,346 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:07,346 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-06 23:35:07,346 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 5
+2023-03-06 23:35:07,346 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:07,346 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-06 23:35:07,346 DEBUG   SenderThread:9540 [sender.py:send():336] send: summary
+2023-03-06 23:35:07,346 INFO    SenderThread:9540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-06 23:35:07,346 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:07,346 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-06 23:35:07,346 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 6
+2023-03-06 23:35:07,346 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:07,346 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-06 23:35:07,346 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:07,346 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-06 23:35:07,346 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:35:07,660 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 7
+2023-03-06 23:35:07,660 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:07,660 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-06 23:35:07,660 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:07,660 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-06 23:35:07,864 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:35:07,864 INFO    Thread-17 :9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\config.yaml
+2023-03-06 23:35:07,958 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-06 23:35:09,401 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 8
+2023-03-06 23:35:09,401 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: poll_exit
+2023-03-06 23:35:09,401 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:09,401 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-06 23:35:09,401 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:09,401 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-06 23:35:09,401 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 9
+2023-03-06 23:35:09,401 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:09,401 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-06 23:35:09,401 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:09,401 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-06 23:35:09,401 INFO    SenderThread:9540 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-06 23:35:09,872 INFO    SenderThread:9540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:35:09,872 INFO    SenderThread:9540 [dir_watcher.py:finish():392] scan: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files
+2023-03-06 23:35:09,872 INFO    SenderThread:9540 [dir_watcher.py:finish():406] scan save: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\conda-environment.yaml conda-environment.yaml
+2023-03-06 23:35:09,872 INFO    SenderThread:9540 [dir_watcher.py:finish():406] scan save: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\config.yaml config.yaml
+2023-03-06 23:35:09,872 INFO    SenderThread:9540 [dir_watcher.py:finish():406] scan save: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log output.log
+2023-03-06 23:35:09,872 INFO    SenderThread:9540 [dir_watcher.py:finish():406] scan save: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\requirements.txt requirements.txt
+2023-03-06 23:35:09,872 INFO    SenderThread:9540 [dir_watcher.py:finish():406] scan save: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-metadata.json wandb-metadata.json
+2023-03-06 23:35:09,872 INFO    SenderThread:9540 [dir_watcher.py:finish():406] scan save: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json wandb-summary.json
+2023-03-06 23:35:09,887 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 10
+2023-03-06 23:35:09,887 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:09,887 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-06 23:35:09,887 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:09,887 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-06 23:35:09,887 INFO    SenderThread:9540 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-06 23:35:11,002 INFO    wandb-upload_4:9540 [upload_job.py:push():138] Uploaded file C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\wandb-summary.json
+2023-03-06 23:35:11,033 INFO    wandb-upload_3:9540 [upload_job.py:push():138] Uploaded file C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\requirements.txt
+2023-03-06 23:35:11,080 INFO    wandb-upload_0:9540 [upload_job.py:push():138] Uploaded file C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\conda-environment.yaml
+2023-03-06 23:35:11,332 INFO    wandb-upload_2:9540 [upload_job.py:push():138] Uploaded file C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\output.log
+2023-03-06 23:35:12,979 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:35:16,932 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:35:17,999 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:35:21,953 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:35:23,020 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:35:26,974 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:35:28,041 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-06 23:35:29,343 ERROR   wandb-upload_1:9540 [internal_api.py:upload_file():2004] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/ananthu2014/CS6910_DL_ASS1/aonavm4a/config.yaml?Expires=1678212310&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=fw2J2z9OtIsTxirHJK6sEnFSJQ%2BN8pu%2BUlBDI6RqU4BX7PKzmE8XmrE2DJM8gzl7lW39X%2FJ2Q%2Bd6oiTcHK3zYIEqpYuibHKRX7uxoNOS5HnLTCf5J7nMW0W1LRbPc0ueTTnPDRrxL%2FSntDwCoUbNG7M5SCjDxArRbbDFRLRnt0jcgxWrrV7Rb6PTWA9rgSAUbYwWeT070P3bZLVhCssBtD1vfTu9nVexjpV4exbsV6b4uptW87J6ciwPznidIVNcjJ7D2ezRk%2FqTBM7I%2BeC6S9bRIFNWU9Z9%2BALZHWUOFlv4EC5gItsgk5xZEnQ0u52WYGekJ3m3p95p05TV%2Fh4CnQ%3D%3D: ('Connection aborted.', TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond', None, 10060, None))
+2023-03-06 23:35:29,343 ERROR   wandb-upload_1:9540 [internal_api.py:upload_file():2006] upload_file request headers: {'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1123'}
+2023-03-06 23:35:29,343 ERROR   wandb-upload_1:9540 [internal_api.py:upload_file():2008] upload_file response body: 
+2023-03-06 23:35:31,540 INFO    wandb-upload_1:9540 [upload_job.py:push():138] Uploaded file C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\files\config.yaml
+2023-03-06 23:35:31,744 INFO    Thread-16 :9540 [sender.py:transition_state():587] send defer: 11
+2023-03-06 23:35:31,744 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:31,744 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-06 23:35:31,744 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:31,744 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-06 23:35:31,744 INFO    SenderThread:9540 [file_pusher.py:join():167] waiting for file pusher
+2023-03-06 23:35:31,744 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 12
+2023-03-06 23:35:31,744 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:31,744 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-06 23:35:31,744 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:31,744 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-06 23:35:32,638 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 13
+2023-03-06 23:35:32,638 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:32,653 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-06 23:35:32,653 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: status_report
+2023-03-06 23:35:32,653 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:32,653 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-06 23:35:32,653 INFO    SenderThread:9540 [sender.py:transition_state():587] send defer: 14
+2023-03-06 23:35:32,653 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: defer
+2023-03-06 23:35:32,653 INFO    HandlerThread:9540 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-06 23:35:32,653 DEBUG   SenderThread:9540 [sender.py:send():336] send: final
+2023-03-06 23:35:32,653 DEBUG   SenderThread:9540 [sender.py:send():336] send: footer
+2023-03-06 23:35:32,653 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: defer
+2023-03-06 23:35:32,653 INFO    SenderThread:9540 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-06 23:35:32,653 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-06 23:35:32,653 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: server_info
+2023-03-06 23:35:32,653 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-06 23:35:32,653 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-06 23:35:32,653 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: poll_exit
+2023-03-06 23:35:32,653 DEBUG   SenderThread:9540 [sender.py:send_request():363] send_request: server_info
+2023-03-06 23:35:33,218 DEBUG   HandlerThread:9540 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-06 23:35:33,218 INFO    HandlerThread:9540 [handler.py:finish():841] shutting down handler
+2023-03-06 23:35:33,657 INFO    WriterThread:9540 [datastore.py:close():299] close: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230306_231604-aonavm4a\run-aonavm4a.wandb
+2023-03-06 23:35:34,222 INFO    SenderThread:9540 [sender.py:finish():1493] shutting down sender
+2023-03-06 23:35:34,222 INFO    SenderThread:9540 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-06 23:35:34,222 INFO    SenderThread:9540 [file_pusher.py:join():167] waiting for file pusher

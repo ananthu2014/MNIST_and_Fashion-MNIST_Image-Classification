@@ -1,0 +1,542 @@
+2023-03-08 16:10:00,922 INFO    StreamThr :29408 [internal.py:wandb_internal():87] W&B internal server running at pid: 29408, started at: 2023-03-08 16:10:00.921911
+2023-03-08 16:10:00,924 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status
+2023-03-08 16:10:00,943 INFO    WriterThread:29408 [datastore.py:open_for_write():85] open: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\run-j261adl8.wandb
+2023-03-08 16:10:00,944 DEBUG   SenderThread:29408 [sender.py:send():336] send: header
+2023-03-08 16:10:00,996 DEBUG   SenderThread:29408 [sender.py:send():336] send: run
+2023-03-08 16:10:01,957 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: check_version
+2023-03-08 16:10:01,961 INFO    SenderThread:29408 [dir_watcher.py:__init__():216] watching files in: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files
+2023-03-08 16:10:01,961 INFO    SenderThread:29408 [sender.py:_start_run_threads():1067] run started: j261adl8 with start time 1678272000.925901
+2023-03-08 16:10:01,961 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:10:01,962 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:10:01,962 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: check_version
+2023-03-08 16:10:02,059 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: run_start
+2023-03-08 16:10:02,088 DEBUG   HandlerThread:29408 [system_info.py:__init__():31] System info init
+2023-03-08 16:10:02,088 DEBUG   HandlerThread:29408 [system_info.py:__init__():46] System info init done
+2023-03-08 16:10:02,088 INFO    HandlerThread:29408 [system_monitor.py:start():151] Starting system monitor
+2023-03-08 16:10:02,089 INFO    SystemMonitor:29408 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-08 16:10:02,089 INFO    HandlerThread:29408 [system_monitor.py:probe():172] Collecting system info
+2023-03-08 16:10:02,093 INFO    SystemMonitor:29408 [interfaces.py:start():168] Started cpu
+2023-03-08 16:10:02,093 INFO    SystemMonitor:29408 [interfaces.py:start():168] Started disk
+2023-03-08 16:10:02,094 INFO    SystemMonitor:29408 [interfaces.py:start():168] Started gpu
+2023-03-08 16:10:02,094 INFO    SystemMonitor:29408 [interfaces.py:start():168] Started memory
+2023-03-08 16:10:02,107 INFO    SystemMonitor:29408 [interfaces.py:start():168] Started network
+2023-03-08 16:10:02,112 DEBUG   HandlerThread:29408 [system_info.py:probe():195] Probing system
+2023-03-08 16:10:02,114 DEBUG   HandlerThread:29408 [system_info.py:_probe_git():180] Probing git
+2023-03-08 16:10:02,117 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:02,207 DEBUG   HandlerThread:29408 [system_info.py:_probe_git():188] Probing git done
+2023-03-08 16:10:02,207 DEBUG   HandlerThread:29408 [system_info.py:probe():241] Probing system done
+2023-03-08 16:10:02,207 DEBUG   HandlerThread:29408 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.13', 'heartbeatAt': '2023-03-08T10:40:02.112462', 'startedAt': '2023-03-08T10:40:00.902888', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'CS6910/Assignment 1/CS6910 Assignment-1.ipynb', 'root': 'C:/Users/anant/CS6910', 'git': {'remote': 'https://github.com/ananthu2014/CS6910.git', 'commit': '5f5c50e2285a1353056d5a4073970254484ba586'}, 'email': 'ananthu2014@gmail.com', 'host': 'ANANTHAKRISHNAN', 'username': 'anant', 'executable': 'C:\\Users\\anant\\anaconda3\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400.0, 'min': 0.0, 'max': 2400.0}, 'cpu_freq_per_core': [{'current': 2400.0, 'min': 0.0, 'max': 2400.0}], 'disk': {'total': 117.99511337280273, 'used': 74.69840240478516}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.883045196533203}}
+2023-03-08 16:10:02,207 INFO    HandlerThread:29408 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-08 16:10:02,207 INFO    HandlerThread:29408 [system_monitor.py:probe():185] Publishing system info
+2023-03-08 16:10:02,207 DEBUG   HandlerThread:29408 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-08 16:10:02,208 DEBUG   HandlerThread:29408 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-08 16:10:02,209 DEBUG   HandlerThread:29408 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-08 16:10:02,966 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\conda-environment.yaml
+2023-03-08 16:10:02,967 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\requirements.txt
+2023-03-08 16:10:02,967 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:10:04,135 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:06,152 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:08,173 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:10,193 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:12,213 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:14,238 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:15,070 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\conda-environment.yaml
+2023-03-08 16:10:15,257 DEBUG   HandlerThread:29408 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-08 16:10:15,258 INFO    HandlerThread:29408 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-08 16:10:15,271 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:10:15,271 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:10:15,272 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:10:15,272 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:10:15,272 DEBUG   SenderThread:29408 [sender.py:send():336] send: files
+2023-03-08 16:10:15,272 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-08 16:10:15,292 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-08 16:10:15,293 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: stop_status
+2023-03-08 16:10:15,587 DEBUG   SenderThread:29408 [sender.py:send():336] send: telemetry
+2023-03-08 16:10:16,078 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:10:16,078 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-metadata.json
+2023-03-08 16:10:16,159 INFO    wandb-upload_0:29408 [upload_job.py:push():138] Uploaded file C:\Users\anant\AppData\Local\Temp\tmpwcf723bvwandb\lhflrdx5-wandb-metadata.json
+2023-03-08 16:10:16,264 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:16,599 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:10:18,102 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:10:18,283 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:20,307 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:21,655 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:10:22,329 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:24,355 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:26,376 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:26,715 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:10:26,747 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:10:26,750 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:10:26,750 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:10:26,753 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:10:27,206 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:10:28,218 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:10:28,404 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:30,297 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:10:30,298 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:10:30,418 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:31,804 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:10:32,264 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\config.yaml
+2023-03-08 16:10:32,489 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:34,502 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:35,348 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:10:36,515 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:37,201 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:10:38,536 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:39,632 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:10:39,633 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:10:39,633 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:10:39,635 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:10:40,348 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:10:40,410 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:10:40,563 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:42,584 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:42,668 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:10:44,596 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:45,451 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:10:46,629 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:47,724 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:10:48,657 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:50,510 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:10:50,679 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:52,698 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:52,764 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:10:52,766 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:10:52,767 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:10:52,768 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:10:52,771 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:10:53,477 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:10:54,487 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:10:54,717 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:55,559 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:10:56,752 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:10:57,810 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:10:58,779 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:00,593 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:11:00,810 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:02,110 DEBUG   SystemMonitor:29408 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-08 16:11:02,111 DEBUG   SenderThread:29408 [sender.py:send():336] send: stats
+2023-03-08 16:11:02,877 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:03,118 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:11:04,896 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:05,650 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:11:06,918 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:07,906 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:11:07,908 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:11:07,909 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:11:07,912 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:11:08,610 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:11:08,926 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:11:08,938 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:10,696 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:11:10,957 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:12,973 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:13,974 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:11:14,995 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:15,745 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:11:17,017 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:19,029 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:11:19,038 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:20,801 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:11:21,060 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:21,706 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:11:21,708 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:11:21,709 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:11:21,711 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:11:21,746 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:11:22,758 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:11:23,081 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:24,749 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:11:25,105 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:25,852 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:11:27,128 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:29,146 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:29,802 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:11:30,908 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:11:31,171 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:32,125 DEBUG   SenderThread:29408 [sender.py:send():336] send: stats
+2023-03-08 16:11:33,240 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:34,177 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:11:34,178 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:11:34,179 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:11:34,179 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:11:34,891 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:11:35,187 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:11:35,262 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:35,959 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:11:37,277 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:39,294 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:40,242 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:11:41,000 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:11:41,307 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:43,328 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:45,310 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:11:45,351 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:46,051 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:11:47,368 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:47,871 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:11:47,873 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:11:47,873 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:11:47,876 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:11:48,007 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:11:49,395 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:50,033 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:11:50,915 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:11:51,104 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:11:51,415 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:53,439 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:55,456 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:55,966 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:11:56,154 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:11:57,482 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:11:59,500 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:00,686 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:12:00,687 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:12:00,688 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:12:00,688 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:12:01,141 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:12:01,202 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:12:01,513 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:01,692 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:12:02,134 DEBUG   SenderThread:29408 [sender.py:send():336] send: stats
+2023-03-08 16:12:03,572 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:05,593 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:06,263 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:12:07,195 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:12:07,618 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:09,639 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:11,323 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:12:11,649 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:12,257 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:12:13,081 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:12:13,083 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:12:13,084 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:12:13,086 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:12:13,287 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:12:13,674 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:14,296 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:12:15,699 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:16,334 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:12:17,717 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:18,135 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:12:19,728 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:21,438 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:12:21,748 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:23,194 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:12:23,773 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:25,795 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:26,342 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:12:26,344 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:12:26,344 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:12:26,346 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:12:26,433 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:12:26,496 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:12:27,822 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:28,360 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:12:29,845 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:31,539 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:12:31,864 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:32,141 DEBUG   SenderThread:29408 [sender.py:send():336] send: stats
+2023-03-08 16:12:33,934 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:34,158 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:12:35,950 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:36,586 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:12:37,969 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:39,208 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:12:39,838 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:12:39,840 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:12:39,840 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:12:39,843 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:12:39,991 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:40,563 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:12:41,635 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:12:42,008 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:42,581 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:12:44,026 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:44,887 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:12:46,045 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:46,681 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:12:48,065 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:49,933 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:12:50,086 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:51,737 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:12:52,113 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:52,487 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:12:52,489 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:12:52,489 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:12:52,491 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:12:52,686 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:12:54,132 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:55,526 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:12:56,158 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:12:56,791 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:12:58,177 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:00,202 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:00,589 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:13:01,854 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:13:02,171 DEBUG   SenderThread:29408 [sender.py:send():336] send: stats
+2023-03-08 16:13:02,227 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:04,310 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:05,652 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:13:05,654 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:13:05,654 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:13:05,655 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:13:05,656 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:13:05,838 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:13:06,320 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:06,851 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:13:06,913 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:13:08,343 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:10,366 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:10,701 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:13:11,964 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:13:12,385 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:14,413 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:15,741 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:13:16,431 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:17,005 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:13:18,454 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:19,176 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:13:19,178 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:13:19,179 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:13:19,181 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:13:19,977 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:13:20,473 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:21,208 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:13:22,063 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:13:22,484 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:24,505 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:26,255 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:13:26,522 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:27,112 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:13:28,538 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:30,559 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:31,310 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:13:32,158 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:13:32,158 DEBUG   SenderThread:29408 [sender.py:send():336] send: stats
+2023-03-08 16:13:32,334 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:13:32,336 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:13:32,337 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:13:32,338 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:13:32,577 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:33,108 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:13:34,649 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:35,127 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:13:36,387 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:13:36,666 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:37,208 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:13:38,684 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:40,702 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:41,437 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:13:42,254 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:13:42,723 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:44,746 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:45,396 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:13:45,407 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:13:45,407 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:13:45,408 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:13:46,238 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:13:46,769 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:47,314 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:13:47,425 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:13:48,791 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:50,815 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:52,362 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:13:52,473 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:13:52,827 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:54,844 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:56,866 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:13:57,411 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:13:57,535 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:13:57,607 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:13:57,609 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:13:57,609 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:13:57,611 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:13:58,357 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:13:58,357 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:13:58,890 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:00,914 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:02,168 DEBUG   SenderThread:29408 [sender.py:send():336] send: stats
+2023-03-08 16:14:02,467 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:14:02,933 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:03,179 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:14:04,995 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:07,012 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:07,518 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:14:08,231 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:14:09,030 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:10,007 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:14:10,009 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:14:10,010 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:14:10,014 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:14:10,491 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:14:11,054 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:12,578 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:14:13,078 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:14,064 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:14:15,099 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:17,118 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:17,631 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:14:19,113 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:14:19,137 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:21,156 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:22,561 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:14:22,562 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:14:22,562 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:14:22,563 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:14:22,620 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:14:22,682 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:14:23,180 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:24,577 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:14:24,641 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:14:25,206 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:27,229 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:27,739 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:14:29,244 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:29,635 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:14:31,268 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:32,176 DEBUG   SenderThread:29408 [sender.py:send():336] send: stats
+2023-03-08 16:14:32,793 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 16:14:33,291 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:35,206 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:14:35,357 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-08 16:14:35,359 DEBUG   SenderThread:29408 [sender.py:send():336] send: history
+2023-03-08 16:14:35,359 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 16:14:35,360 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:14:35,362 ERROR   gpu       :29408 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-08 16:14:35,646 DEBUG   SenderThread:29408 [sender.py:send():336] send: telemetry
+2023-03-08 16:14:35,647 DEBUG   SenderThread:29408 [sender.py:send():336] send: run
+2023-03-08 16:14:35,759 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\config.yaml
+2023-03-08 16:14:35,760 INFO    Thread-17 :29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:14:35,985 INFO    SenderThread:29408 [sender.py:send_run():944] updated run: j261adl8
+2023-03-08 16:14:35,985 DEBUG   SenderThread:29408 [sender.py:send():336] send: telemetry
+2023-03-08 16:14:35,986 DEBUG   SenderThread:29408 [sender.py:send():336] send: telemetry
+2023-03-08 16:14:35,986 DEBUG   SenderThread:29408 [sender.py:send():336] send: exit
+2023-03-08 16:14:35,986 INFO    SenderThread:29408 [sender.py:send_exit():559] handling exit code: 0
+2023-03-08 16:14:35,987 INFO    SenderThread:29408 [sender.py:send_exit():561] handling runtime: 273
+2023-03-08 16:14:35,988 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:14:35,989 INFO    SenderThread:29408 [sender.py:send_exit():567] send defer
+2023-03-08 16:14:35,989 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:35,989 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-08 16:14:35,990 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:35,990 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-08 16:14:35,990 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 1
+2023-03-08 16:14:35,991 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:35,991 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-08 16:14:35,991 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:35,992 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-08 16:14:35,992 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 2
+2023-03-08 16:14:35,992 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:35,992 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-08 16:14:35,993 INFO    HandlerThread:29408 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-08 16:14:35,996 DEBUG   SystemMonitor:29408 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-08 16:14:35,996 DEBUG   SystemMonitor:29408 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-08 16:14:36,003 INFO    HandlerThread:29408 [interfaces.py:finish():175] Joined cpu
+2023-03-08 16:14:36,003 INFO    HandlerThread:29408 [interfaces.py:finish():175] Joined disk
+2023-03-08 16:14:36,028 INFO    HandlerThread:29408 [interfaces.py:finish():175] Joined gpu
+2023-03-08 16:14:36,028 INFO    HandlerThread:29408 [interfaces.py:finish():175] Joined memory
+2023-03-08 16:14:36,028 INFO    HandlerThread:29408 [interfaces.py:finish():175] Joined network
+2023-03-08 16:14:36,029 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:36,029 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-08 16:14:36,029 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 3
+2023-03-08 16:14:36,029 DEBUG   SenderThread:29408 [sender.py:send():336] send: stats
+2023-03-08 16:14:36,030 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:36,030 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-08 16:14:36,030 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:36,030 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-08 16:14:36,030 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 4
+2023-03-08 16:14:36,030 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:36,030 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-08 16:14:36,030 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:36,030 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-08 16:14:36,030 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 5
+2023-03-08 16:14:36,030 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:36,031 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-08 16:14:36,031 DEBUG   SenderThread:29408 [sender.py:send():336] send: summary
+2023-03-08 16:14:36,031 INFO    SenderThread:29408 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-08 16:14:36,031 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:36,031 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-08 16:14:36,031 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 6
+2023-03-08 16:14:36,033 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:36,033 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-08 16:14:36,033 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:36,033 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-08 16:14:36,037 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 16:14:36,394 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 7
+2023-03-08 16:14:36,394 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:36,394 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-08 16:14:36,394 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:36,394 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-08 16:14:36,462 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 8
+2023-03-08 16:14:36,462 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:36,463 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-08 16:14:36,463 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:36,463 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-08 16:14:36,463 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 9
+2023-03-08 16:14:36,463 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:36,463 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-08 16:14:36,463 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:36,463 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-08 16:14:36,463 INFO    SenderThread:29408 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-08 16:14:36,663 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-08 16:14:36,772 INFO    SenderThread:29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:14:36,773 INFO    SenderThread:29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\config.yaml
+2023-03-08 16:14:36,773 INFO    SenderThread:29408 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:14:36,773 INFO    SenderThread:29408 [dir_watcher.py:finish():392] scan: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files
+2023-03-08 16:14:36,774 INFO    SenderThread:29408 [dir_watcher.py:finish():406] scan save: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\conda-environment.yaml conda-environment.yaml
+2023-03-08 16:14:36,774 INFO    SenderThread:29408 [dir_watcher.py:finish():406] scan save: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\config.yaml config.yaml
+2023-03-08 16:14:36,778 INFO    SenderThread:29408 [dir_watcher.py:finish():406] scan save: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log output.log
+2023-03-08 16:14:36,779 INFO    SenderThread:29408 [dir_watcher.py:finish():406] scan save: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\requirements.txt requirements.txt
+2023-03-08 16:14:36,788 INFO    SenderThread:29408 [dir_watcher.py:finish():406] scan save: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-metadata.json wandb-metadata.json
+2023-03-08 16:14:36,788 INFO    SenderThread:29408 [dir_watcher.py:finish():406] scan save: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json wandb-summary.json
+2023-03-08 16:14:36,789 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 10
+2023-03-08 16:14:36,789 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: poll_exit
+2023-03-08 16:14:36,789 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:36,789 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-08 16:14:36,794 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:36,795 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-08 16:14:36,795 INFO    SenderThread:29408 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-08 16:14:37,614 INFO    wandb-upload_2:29408 [upload_job.py:push():138] Uploaded file C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\output.log
+2023-03-08 16:14:37,669 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-08 16:14:37,671 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: poll_exit
+2023-03-08 16:14:37,720 INFO    wandb-upload_1:29408 [upload_job.py:push():138] Uploaded file C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\config.yaml
+2023-03-08 16:14:37,742 INFO    wandb-upload_3:29408 [upload_job.py:push():138] Uploaded file C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\requirements.txt
+2023-03-08 16:14:37,771 INFO    wandb-upload_0:29408 [upload_job.py:push():138] Uploaded file C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\conda-environment.yaml
+2023-03-08 16:14:37,772 INFO    wandb-upload_4:29408 [upload_job.py:push():138] Uploaded file C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\files\wandb-summary.json
+2023-03-08 16:14:37,980 INFO    Thread-16 :29408 [sender.py:transition_state():587] send defer: 11
+2023-03-08 16:14:37,981 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:37,981 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-08 16:14:37,982 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:37,982 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-08 16:14:37,983 INFO    SenderThread:29408 [file_pusher.py:join():167] waiting for file pusher
+2023-03-08 16:14:37,983 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 12
+2023-03-08 16:14:37,983 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:37,984 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-08 16:14:37,985 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:37,985 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-08 16:14:38,695 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-08 16:14:38,896 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 13
+2023-03-08 16:14:38,896 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: poll_exit
+2023-03-08 16:14:38,898 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:38,898 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-08 16:14:38,900 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:38,900 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-08 16:14:38,900 INFO    SenderThread:29408 [sender.py:transition_state():587] send defer: 14
+2023-03-08 16:14:38,901 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: defer
+2023-03-08 16:14:38,902 INFO    HandlerThread:29408 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-08 16:14:38,902 DEBUG   SenderThread:29408 [sender.py:send():336] send: final
+2023-03-08 16:14:38,903 DEBUG   SenderThread:29408 [sender.py:send():336] send: footer
+2023-03-08 16:14:38,904 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: defer
+2023-03-08 16:14:38,904 INFO    SenderThread:29408 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-08 16:14:38,907 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-08 16:14:38,907 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: server_info
+2023-03-08 16:14:38,909 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: poll_exit
+2023-03-08 16:14:38,910 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-08 16:14:38,913 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-08 16:14:38,913 DEBUG   SenderThread:29408 [sender.py:send_request():363] send_request: server_info
+2023-03-08 16:14:39,552 DEBUG   HandlerThread:29408 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-08 16:14:39,552 INFO    HandlerThread:29408 [handler.py:finish():841] shutting down handler
+2023-03-08 16:14:39,922 INFO    WriterThread:29408 [datastore.py:close():299] close: C:\Users\anant\CS6910\Assignment 1\wandb\run-20230308_161000-j261adl8\run-j261adl8.wandb
+2023-03-08 16:14:40,558 INFO    SenderThread:29408 [sender.py:finish():1493] shutting down sender
+2023-03-08 16:14:40,558 INFO    SenderThread:29408 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-08 16:14:40,559 INFO    SenderThread:29408 [file_pusher.py:join():167] waiting for file pusher
