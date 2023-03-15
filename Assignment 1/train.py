@@ -902,8 +902,6 @@ if __name__=="__main__":
     if args.data_set=="fashion_mnist":
         x_train,y_train,x_val,y_val,x_test,y_test=pre_processing_data(X_train,Y_train,X_test,Y_test)
         x_train=data_augmentation(x_train)
-        x_val=data_augmentation(x_val)
-        x_test=data_augmentation(x_test)
     elif args.data_set=="mnist":
         x_train,y_train,x_val,y_val,x_test,y_test=pre_processing_data(X_train_mnist,Y_train_mnist,X_test_mnist,Y_test_mnist)
         x_train=data_augmentation(x_train)
