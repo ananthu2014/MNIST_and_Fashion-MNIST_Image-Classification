@@ -614,11 +614,16 @@ def neural_network(x_train,y_train,x_val,y_val,learning_rate = 0.001,momentum = 
     if optimizer=='stochastic_gradient_descent':
         
          for j in range(epochs):
-            for i in range(m):
-                x_data = x_train[:,i].reshape(x_train.shape[0],1)
-                y_data = y_train[:,i].reshape(y_train.shape[0],1)
-                z,a = forward_propagation(x_data,w,b,activation)
-                dz,dw,db=back_propagation(a,y_data,w,b,z,lambd,activation,loss)
+            for i in range(num_batches):
+                x_mb = x_train[:,i*batch_size:(i+1)*batch_size].reshape(x_train.shape[0],batch_size)
+                y_mb = y_train[:,i*batch_size:(i+1)*batch_size].reshape(y_train.shape[0],batch_size)
+                z,a = forward_propagation(x_mb,w,b,activation)
+                dz,dw,db=back_propagation(a,y_mb,w,b,z,lambd,activation,loss)
+                w,b=gradient_descent(w,b,dw,db,learning_rate)
+            if x_train.shape[1] % batch_size !=0:
+                x_last = x_train[:,num_batches*batch_size:]
+                y_last = y_train[:,num_batches*batch_size:]
+                dz,dw,db=back_propagation(a,y_last,w,b,z,lambd,activation,loss)
                 w,b=gradient_descent(w,b,dw,db,learning_rate)
             z,a = forward_propagation(x_train,w,b,activation)
             cost_train=cross_entropy_function(y_train,a[-1],w,lambd)
