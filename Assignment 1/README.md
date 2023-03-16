@@ -123,38 +123,3 @@ Further details about the implementation is given below:-
  The confusion matrix was plotted for the highest validation accuracy case.  
  Analysis was done on MNIST dataset as well with the inferences obtained from Fashion-MNIST dataset.  
  *train.py* file was created which could be run in the terminal and incudes all the specified hyperparameter choices.  
- 
- 
-                            
- 
-
-                             
-                             
-                             
-
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-     
-   
-   
-
-
-
-  
-   
-
