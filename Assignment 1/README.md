@@ -47,8 +47,21 @@ Further details about the implementation is given below:-
    Its derivative is given by identity_function_dash(z)    
    
    d) tanh_function(z) : This denotes the tanh activation function  
-   Its derivative is given by tanh_function_dash(z) 
-                   
+   Its derivative is given by tanh_function_dash(z)
+   
+   e) softmax_function(z) : Since the given problem is a multi-class classification(with 10 labels), we use softmax function for the output layer.  
+    Its derivative is given by softmax_function_dash(z)  
+    
+    Mostly, these activation functions are used in forward propagation and its derivative functions are used in back propagation.  
+    
+4) **Loss functions** :  
+
+   a) cross_entropy_function : For multi-label problems, cross entropy function is the recommended loss function, which gives a higher penalty in case of misclassifications   
+      and therefore, minimizes better.  
+      
+   b) mean_squared_error_function : Here, Mean squared error loss is used to compare the results obtained with cross entropy loss.  
+   
+   
      
    
    
