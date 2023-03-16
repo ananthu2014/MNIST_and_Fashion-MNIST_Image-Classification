@@ -64,8 +64,8 @@ Further details about the implementation is given below:-
    
 5) **Weight initialization** :  
 
-   a) random_initialization : Here , weights are initialized randomly as a uniform distribution between limits -1 and 1 where biases are either initialized to zero or  
-      a positive value according to the sweeps.
+   a) random_initialization : Here , weights are initialized randomly as a uniform distribution between limits -1 and 1 where biases are either initialized to zero or a
+     positive value according to the sweeps.  
       
    b) xavier_initialization : Here, weights are initialized as a uniform distribution between the specified limits and bias to zero.  
    
