@@ -70,10 +70,7 @@ Further details about the implementation is given below:-
    b) xavier_initialization : Here, weights are initialized as a uniform distribution between the specified limits and bias to zero.  
    
    
-6) **forward_propagation** : Forward propagation is used to find the predicted value of output and cost function by going forward,starting from input layer until the output  
-     layer.We calculate the pre-activation and activation values and returns the latter after each layer. The input parameters taken are input data set,weights and bias    
-     value,and activation function to be used where the default is set as sigmoid function. Softmax function is used to find the values at the output layer. Here,z is the  
-     linear part and a is the non-linear part(activation function) of a neuron.  
+6) **forward_propagation** : Forward propagation is used to find the predicted value of output and cost function by going forward,starting from input layer until the output layer.We calculate the pre-activation and activation values and returns the latter after each layer. The input parameters taken are input data set,weights and bias value,and activation function to be used where the default is set as sigmoid function. Softmax function is used to find the values at the output layer. Here,z is the linear part and is the non-linear part(activation function) of a neuron.   
      z_l = w_l * a_l-1 + b_l, where z_l is the pre-activation part  
      a_l = g(z_l), where a_l is the activation part  
 
