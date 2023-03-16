@@ -16,7 +16,7 @@ The following packages are used for completing the assignment:-
   **scikit-learn** - plotting confusion matrix in the jupyter notebook, test-train-split of dataset.  
   **keras** - importing FASHION-MNIST and MNIST datasets.  
   
-The link to the wandb report of this assignment is given below:-  
+*The link to the wandb report of this assignment is given below:-*  
 https://wandb.ai/ananthu2014/CS6910_DL_ASS1/reports/CS6910-Assignment-1--VmlldzozNzA2NzAy
 
   
