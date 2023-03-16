@@ -93,7 +93,8 @@ Further details about the implementation is given below:-
 
  12) **predict** : Function used to predict output value of test data and find the test accuracy and test error in feed_forward_NN 
 
- 13) **neural_network** : This is the main function where the main function call is performed and also the sweep  
+ 13) **neural_network** : This is the main function where the main function call is performed and also the sweep.  
+   
       **HYPERPARAMETERS** :   
                             a. learning_rate(Learning rate)    
                             b. lambd(Regularization parameter)    
@@ -111,7 +112,8 @@ Further details about the implementation is given below:-
                             n. epochs(Number of epochs)  
                            
    
- ## OUTCOMES:- 
+ ## OUTCOMES:-  
+ 
  All the class labels was found out and displayed.  
  Feed forward Neural Network was successfully implemented.  
  Backpropogation algorithm was implemented without using any automatic differentiation packages.  
