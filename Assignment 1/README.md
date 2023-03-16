@@ -109,7 +109,8 @@ Further details about the implementation is given below:-
                             k. neurons(Number of neurons in hidden layers)  
                             l. num_hidden_layers(number of hidden layers)  
                             m. batch_size(step size in gradient descent)  
-                            n. epochs(Number of epochs)  
+                            n. epochs(Number of epochs) 
+                            o. optimizer(gradient descent algorithm used)  
                            
    
  ## OUTCOMES:-  
@@ -122,4 +123,25 @@ Further details about the implementation is given below:-
  The cross entropy and mean squared error cost functions was compared based on results.  
  The confusion matrix was plotted for the highest validation accuracy case.  
  Analysis was done on MNIST dataset as well with the inferences obtained from Fashion-MNIST dataset.  
- *train.py* file was created which could be run in the terminal and incudes all the specified hyperparameter choices.  
+ *train.py* file was created which could be run in the terminal and incudes all the specified hyperparameter choices. 
+ 
+ 
+ ### HYPER-PARAMETERS FOR HIGHEST VALIDATION ACCURACY:-  
+ 
+ learning_rate = 0.001  
+ lambd = 0  
+ activation = relu_function  
+ loss = cross_entropy_function  
+ epsilon = 1e-8  
+ momentum = 0.9  
+ beta = 0.9  
+ beta1 = 0.9  
+ beta2 = 0.99  
+ optimizer = adam   
+ neurons = 64  
+ num_hidden_layers = 1  
+ batch_size = 8  
+ epochs = 20  
+ 
+ **HIGHEST VALIDATION ACCURACY FOR FASHION-MNIST DATASET = 87.25%**  
+ **HIGHEST VALIDATION ACCURACY FOR MNIST DATASET = 97.5%  
