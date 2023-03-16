@@ -109,6 +109,20 @@ Further details about the implementation is given below:-
                             l. num_hidden_layers(number of hidden layers)  
                             m. batch_size(step size in gradient descent)  
                             n. epochs(Number of epochs)  
+                           
+   
+ ## OUTCOMES:- 
+ All the class labels was found out and displayed.  
+ Feed forward Neural Network was successfully implemented.  
+ Backpropogation algorithm was implemented without using any automatic differentiation packages.  
+ All the spcified gradient descent algorithms have been implemented.  
+ A total of 479 sweeps was performed and the hyperparameter configuration of highest validation accuracy was found  
+ The cross entropy and mean squared error cost functions was compared based on results.  
+ The confusion matrix was plotted for the highest validation accuracy case.  
+ Analysis was done on MNIST dataset as well with the inferences obtained from Fashion-MNIST dataset.  
+ *train.py* file was created which could be run in the terminal and incudes all the specified hyperparameter choices.  
+ 
+ 
                             
  
 
