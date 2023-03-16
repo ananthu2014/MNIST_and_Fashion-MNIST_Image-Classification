@@ -95,7 +95,7 @@ Further details about the implementation is given below:-
  12) **predict** : Function used to predict output value of test data and find the test accuracy and test error  
 
  13) **neural_network** : This is the main function where the main function call is performed and also the sweep  
-       **HYPERPARAMETERS** : learning_rate(Learning rate)  
+      **HYPERPARAMETERS** : learning_rate(Learning rate)  
                              lambd(Regularization parameter)  
                              activation(Activation function)  
                              loss(Loss function)  
