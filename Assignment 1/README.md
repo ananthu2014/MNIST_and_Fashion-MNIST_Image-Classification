@@ -55,8 +55,8 @@ Further details about the implementation is given below:-
     
 4) **Loss functions** :  
 
-   a) cross_entropy_function : For multi-label problems, cross entropy function is the recommended loss function, which gives a higher penalty in case of misclassifications   
-      and therefore, minimizes better.  
+   a) cross_entropy_function : For multi-label problems, cross entropy function is the recommended loss function, which gives a higher penalty in case of misclassifications
+   and therefore, minimizes better. 
       
    b) mean_squared_error_function : Here, Mean squared error loss is used to compare the results obtained with cross entropy loss.  
    
