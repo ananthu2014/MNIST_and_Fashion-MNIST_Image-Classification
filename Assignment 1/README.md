@@ -84,6 +84,17 @@ Further details about the implementation is given below:-
     c) adam: This function is used to implement Adam(Adaptive moments)  
     d) nadam : This function is used to implement Nesterov Adam  
     e) rms_prop : This function is used to implement RMS-Prop Algorithm  
+    
+    
+9) **accuracy** : Function to find accuracy of given data    
+
+10) **plot_error** : Function used to plot train and validation error  
+
+11) **plot_accuracy** : Function used to plot train and validation accuracy  
+
+12) **predict** : Function used to predict output value of test data and find the test accuracy and test error  
+
+13)**neural_network** : This is the main function where the main function call is performed and also the sweep  
 
    
    
