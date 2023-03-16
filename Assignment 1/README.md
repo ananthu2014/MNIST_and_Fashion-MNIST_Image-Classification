@@ -37,11 +37,11 @@ Further details about the implementation is given below:-
 3) **Activation functions and its derivatives** :
 
 a) sigmoid_function = 1/((1+exp(-z))
-   sigmoid_function_dash : This function is the derivative of sigmoid_function  
+   sigmoid_function_dash : This function is the derivative of sigmoid_function    
                          = sigmoid_function(z)x(1-sigmoid_function(z))  
                          
-b) relu_function(z) = max(0,z)
-   Its derivative is given as relu_function_dash(z)  
+b) relu_function(z) = max(0,z)  
+   Its derivative is given as relu_function_dash(z)    
    
 c) identity_function(z) = z  
    Its derivative is given by identity_function_dash(z)    
