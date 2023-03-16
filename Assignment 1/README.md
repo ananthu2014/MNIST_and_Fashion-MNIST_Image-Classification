@@ -91,7 +91,7 @@ Further details about the implementation is given below:-
 
  11) **plot_accuracy** : Function used to plot train and validation accuracy  
 
- 12) **predict** : Function used to predict output value of test data and find the test accuracy and test error  
+ 12) **predict** : Function used to predict output value of test data and find the test accuracy and test error in feed_forward_NN 
 
  13) **neural_network** : This is the main function where the main function call is performed and also the sweep  
       **HYPERPARAMETERS** :   
@@ -109,6 +109,9 @@ Further details about the implementation is given below:-
                             l. num_hidden_layers(number of hidden layers)  
                             m. batch_size(step size in gradient descent)  
                             n. epochs(Number of epochs)  
+                            
+ 
+
                              
                              
                              
