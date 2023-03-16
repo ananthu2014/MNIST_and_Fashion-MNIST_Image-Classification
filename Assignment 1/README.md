@@ -76,6 +76,14 @@ Further details about the implementation is given below:-
      
  7) **back_propagation** : Back propagation is used to find the derivatives of each weights and biases at each layers by starting from the output layer and travelling backwards.We find the derivatives wrto ouput layer,wrto hidden layer and eventuallywrto weights and biases.  
  dw=dJ/dw,db=dJ/db,dz=dJ/dz  
+ 
+ 8) **Gradient_descent_variations** : 
+ 
+    a) gradient_descent : This function is used to implement vanilla gradient descent and stochastic gradient descent  
+    b) momentum_gradient_descent : This function written is used to Momentum gradient descent and Nesterov accelarated gradient descent  
+    c) adam: This function is used to implement Adam(Adaptive moments)  
+    d) nadam : This function is used to implement Nesterov Adam  
+    e) rms_prop : This function is used to implement RMS-Prop Algorithm  
 
    
    
