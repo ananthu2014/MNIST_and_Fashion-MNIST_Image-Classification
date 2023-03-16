@@ -62,6 +62,38 @@ Further details about the implementation is given below:-
    b) mean_squared_error_function : Here, Mean squared error loss is used to compare the results obtained with cross entropy loss.  
    
    
+5) **Weight initialization** :  
+
+   a) random_initialization : Here , weights are initialized randomly as a uniform distribution between limits -1 and 1 where biases are either initialized to zero or  
+      a positive value according to the sweeps.
+      
+   b) xavier_initialization : Here, weights are initialized as a uniform distribution between the specified limits and bias to zero.  
+   
+   
+6) **forward_propagation** : Forward propagation is used to find the predicted value of output and cost function by going forward,starting from input layer until the output  
+     layer.We calculate the pre-activation and activation values and returns the latter after each layer. The input parameters taken are input data set,weights and bias    
+     value,and activation function to be used where the default is set as sigmoid function. Softmax function is used to find the values at the output layer. Here,z is the  
+     linear part and a is the non-linear part(activation function) of a neuron.  
+     z_l = w_l * a_l-1 + b_l, where z_l is the pre-activation part  
+     a_l = g(z_l), where a_l is the activation part  
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
      
    
    
