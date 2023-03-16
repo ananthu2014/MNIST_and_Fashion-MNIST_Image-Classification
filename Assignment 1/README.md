@@ -2,7 +2,7 @@
                  -ANANTHAKRISHNAN A(ED22S015)
 This repository includes the following files:-  
    CS6910 Assignment 1_old.ipynb  -Thsi file includes the initial commits which was changed in between in the jupyter notebook due to continuous kernel issues.
-   CS6910 Assignment-1(CODE ONLY).ipynb  -This file includes the complete code and the sweeps performed without the outputs.
-   CS6910 Assignment-1-partial sweep results.ipynb - This file includes almost 200 number of sweeps performed as output 
-   CS6910 Assignment-1.ipynb- This is the original file which includes all the outputs obtained in the jupyter notebook and wandb along with the codes, but due to spain constraints, it can only be opened after downloading   
-   train.py -This file can be used for running the code in the terminal.    
+   CS6910 Assignment-1(CODE ONLY).ipynb  -This file includes the complete code and the sweeps performed without the outputs.   
+   CS6910 Assignment-1-partial sweep results.ipynb - This file includes almost 200 number of sweeps performed as output.  
+   CS6910 Assignment-1.ipynb- This is the original file which includes all the outputs obtained in the jupyter notebook and wandb along with the codes, but due to spain constraints, it can only be opened after downloading  the file.   
+   train.py -This file can be used for running the code in the terminal.      
