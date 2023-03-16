@@ -95,6 +95,23 @@ Further details about the implementation is given below:-
  12) **predict** : Function used to predict output value of test data and find the test accuracy and test error  
 
  13) **neural_network** : This is the main function where the main function call is performed and also the sweep  
+       **HYPERPARAMETERS** : learning_rate(Learning rate)  
+                             lambd(Regularization parameter)  
+                             activation(Activation function)  
+                             loss(Loss function)  
+                             epsilon(used in gradient_descent algorithms to avoid zero division error)  
+                             momentum(Momentum used in Momentum gradient descent and NAG)  
+                             beta(used in rms_prop)  
+                             beta1(used in adam and nadam)  
+                             beta2(used in adam and nadam)  
+                             wandb_project(project_name in wandb)  
+                             neurons(Number of neurons in hidden layers)  
+                             num_hidden_layers(number of hidden layers)  
+                             batch_size(step size in gradient descent)  
+                             epochs(Number of epochs)  
+                             
+                             
+                             
 
    
    
