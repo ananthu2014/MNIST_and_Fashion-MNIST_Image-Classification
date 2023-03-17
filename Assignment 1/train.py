@@ -61,6 +61,8 @@ def pre_processing_data(X_train,Y_train,X_test,Y_test):
                 y_test[i,j]=1
     '''CREATING VALIDATION DATA SET'''
     x_train,x_val,y_train,y_val = train_test_split(x_train,y_train,test_size=0.10,random_state=10)
+    
+    '''Normalisation of data'''
     x_train=x_train.T/255
     y_train=y_train.T
     x_test=x_test.T/255
@@ -506,22 +508,21 @@ def plot_accuracy(acc_train, acc_val):
 # In[97]:
 
 
-#PREDICT FUNCTION
-def predict(x,y,w,b,lambd,activation):
-   '''This function is to predict the cost and accuracy values of the test data
-      input :  x(input)
-               y(output)
-               w,b(weights and biases)
-               lamb(regularisation parameter)
-               loss(loss function)
-               activation(activation function)'''
-   
-   z,a = forward_propagation(x_train,w,b,activation)
-   acc= accuracy(y,a[-1])
-   y_pred=np.argmax(a[-1],axis=0)
-   Y=np.argmax(y,axis=0)
-           
-   return y_pred,Y,acc
+ #PREDICT FUNCTION
+def predict(x,y,w,b,lambd,activation='relu_function'):
+    '''This function is to predict the cost and accuracy values of the test data
+       input :  x(input)
+                y(output)
+                w,b(weights and biases)
+                lambd(regularization parameter)
+                loss(loss function)
+                activation(activation function)'''
+    
+    z,a = forward_propagation(x,w,b,activation)
+    cost_test = mean_squared_error(y,a[-1],w,lambd)
+    acc= accuracy(y,a[-1])
+            
+    return acc,cost_test
 
 
 # In[98]:
