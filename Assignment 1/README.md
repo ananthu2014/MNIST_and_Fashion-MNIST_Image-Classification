@@ -143,5 +143,5 @@ Further details about the implementation is given below:-
  batch_size = 8  
  epochs = 20  
  
- **HIGHEST VALIDATION ACCURACY FOR FASHION-MNIST DATASET = 87.25%**  
+ **HIGHEST VALIDATION ACCURACY FOR FASHION-MNIST DATASET = 87.25%**   
  **HIGHEST VALIDATION ACCURACY FOR MNIST DATASET = 97.5%**   
