@@ -13,7 +13,7 @@ This repository includes the following files:-
    
 The following packages are used for completing the assignment:-  
   **Numpy** - matrix operations.  
-  **WANDB** - performing sweep and analysis results from plots, confusion matrix etc.  
+  **wandb** - performing sweep and analysis results from plots, confusion matrix etc.  
   **scikit-learn** - plotting confusion matrix in the jupyter notebook, test-train-split of dataset.  
   **keras** - importing FASHION-MNIST and MNIST datasets.  
   
