@@ -20,6 +20,7 @@ The following packages are used for completing the assignment:-
   
 *The link to the wandb report of this assignment is given below:-*  
 https://wandb.ai/ananthu2014/CS6910_DL_ASS1/reports/CS6910-Assignment-1--VmlldzozNzA2NzAy
+https://wandb.ai/ananthu2014/CS6910_DL_ASS1/reports/CS6910-Assignment-1--VmlldzozNzA2NzAy?accessToken=flb67mli2hr8zodxzjor2a2vgl8qcj8ie8nzsj5uk282cswqzqsnxinqk4bdlker
 
 Further details about the implementation is given below:-  
 
